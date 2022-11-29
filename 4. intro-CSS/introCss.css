@@ -1,0 +1,14 @@
+.colores{
+    color: blue;
+}
+.color-hexa{
+    color: #531CB3
+}
+
+/*El ultimo valor del rgb es la opacidad del color, 
+el valor maximo es el 1, y de para abajo se coloca mas claro 
+este color que se tiene en el rgb
+*/
+.color-rgb{
+    color: rgb(0, 255, 0, 0.2);
+}
