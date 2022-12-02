@@ -1,0 +1,8 @@
+/*Importando directamente al css*/
+@import url('https://fonts.googleapis.com/css2?family=Zen+Dots&display=swap');
+html{
+    font-family: 'Zen Dots', cursive;
+    font-size: 14pt;
+    font-weight: 400;
+} 
+
