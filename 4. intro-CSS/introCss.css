@@ -12,3 +12,10 @@ este color que se tiene en el rgb
 .color-rgb{
     color: rgb(0, 255, 0, 0.2);
 }
+
+/*Fondos*/
+.fondo{
+    /* background-color: blanchedalmond; */
+    background-image: url('https://i.pinimg.com/originals/ff/86/1b/ff861bc1b7d96d021ef8dcc41baa72fe.jpg');
+    background-position: bottom bottom;
+}
