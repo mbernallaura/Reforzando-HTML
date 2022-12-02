@@ -13,9 +13,34 @@ este color que se tiene en el rgb
     color: rgb(0, 255, 0, 0.2);
 }
 
-/*Fondos*/
+/**Fondos*/
 .fondo{
     /* background-color: blanchedalmond; */
     background-image: url('https://i.pinimg.com/originals/ff/86/1b/ff861bc1b7d96d021ef8dcc41baa72fe.jpg');
     background-position: bottom bottom;
+}
+
+/**Tamaños*/
+.ancho{
+    background-color: blueviolet;
+    width: 150px;
+}
+
+.altura{
+    background-color: coral;
+    height: 100px;
+}
+
+.tarjeta{
+    border-style: solid;
+    border-color: crimson;
+    border-width: 1px;
+    border-left: none;
+    border-right: none;
+    /*!padding: arriba abajo, los lados*/
+    padding: 10px 4px;
+    /* arriba, derecha, abajo, izquierda
+    padding: 10px, 4px, 5px, 9px
+    */
+    margin: 10px;
 }
