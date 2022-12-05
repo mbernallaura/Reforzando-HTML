@@ -1,0 +1,24 @@
+.div1, .div2{
+    background-color: brown;
+    /*!Por defecto tiene display: block*/
+    /*Sirve para abarcar una franja horiontal curbiendo toda la pagina,
+    pero si quisermos que solo abarcara lo del objeto pintado se 
+    colocaria, display: inline
+    */
+}
+
+.img{
+    width: 5cm;
+    height: 8cm;
+    /*!Por defecto Display: inline*/
+}
+
+.span1{
+    background-color: aqua;
+}
+
+.span2{
+    background-color: aqua;
+    /**Para colocar el elemento en ciero lugar se coloca float:left: ;*/
+    float: right;
+}
