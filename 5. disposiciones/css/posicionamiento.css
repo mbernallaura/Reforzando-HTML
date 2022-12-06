@@ -1,0 +1,53 @@
+div{
+    border: 1px solid;
+    padding: 4px;
+    margin: 5px;
+    background-color: aliceblue;
+}
+
+/*position: relative
+el posicionamiento del elemento puede cambiar dependiendo 
+de cual se le coloque, en este caso left
+*/
+.relative{
+    position: relative;
+    left: 50px;
+}
+
+/*position: fixed
+Esta posicion sirve para cuando queremos que un elemento, sin
+importar si se haga scroll a la pantalla, siempre se sobrepone y
+queda en el mismo lugar
+*/
+.fixed{
+    position: fixed;
+    bottom: 0px;
+    left: 0px;
+    background-color: burlywood;
+    z-index: 10;
+}
+
+/* position: absolute
+El elemento se posiciona en funcion de el elemento que lo contenga
+*/
+
+.absolute{
+    position: absolute;
+    top: 0px;
+}
+
+.relative.contenedor{
+    width: 5cm;
+    height: 20cm;
+    background-color: blueviolet;
+}
+
+/*position: sticky
+Al hacer scroll, el elemento modifica su posicionamiento
+*/
+.sticky{
+    position: sticky;
+    background-color: chartreuse;
+    top: 0px;
+    z-index: 2;
+}
