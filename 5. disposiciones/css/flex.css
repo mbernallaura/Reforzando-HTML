@@ -1,0 +1,40 @@
+/*display: flex
+Hace que los elementos dentro de un elemento, se posicionen en una
+forma ordenada sobre el eje x, para cambiar la direccion de la 
+posicion de los elementos quedan ordenandos, se coloca un atributo mas
+flex-direction: column
+
+justify-content: 
+Es la posicion que va a tener los elementos dentro del que los
+contiene
+*/
+
+.flex{
+    display: flex; 
+    flex-direction: column;
+    background-color: yellow;
+    height: 300px;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.div1{
+    background-color: beige;
+    /* height: 200px; */
+    width: 100px;
+    border: 1px solid blue;
+}
+
+.div2{
+    background-color: beige;
+    /* height: 200px; */
+    width: 100px;
+    border: 1px solid blue;
+}
+
+.div3{
+    background-color: beige;
+    /* height: 200px; */
+    width: 100px;
+    border: 1px solid blue;
+}
