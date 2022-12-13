@@ -1,0 +1,23 @@
+html{
+    font-family: Verdana, Geneva, Tahoma, sans-serif
+}
+
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+/*vw, significa que abarcara el 100% de toda la pantalla sin
+importar si agrandamos la pagina o no, va abarcar todo el espacio*/
+.video{
+    width: 100vw;
+    height: 100vw;
+    object-fit: cover;
+    position: fixed;
+}
+
+.header{
+    color: aliceblue;
+    position: relative;
+    text-align: right;
+}
