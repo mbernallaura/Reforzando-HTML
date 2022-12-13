@@ -1,0 +1,15 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.imagenes{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.arcane, .jinx, .vi, .viktor, .jayce, .caitlyn {
+    width: 300px;
+    height: 180px;
+}
+
