@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Pseudoclases</title>
+    <style>
+        *{
+            padding: 0;
+            margin: 0;
+        }
+
+        .hover{
+            width: 300px;
+            height: 100px;
+            background-color: bisque;
+        }
+
+        /*!Se activa en cuanto el raton pase por encima*/
+        .hover:hover{
+            background-color: brown;
+        }
+
+        .listado{
+            padding: 15px;
+            background-color: aquamarine;
+        }
+
+        .listado  p:first-child{
+            color: blueviolet;
+        }
+
+        /*:link, link no visitado aun*/
+        a:link{
+            color: crimson;
+        }
+
+        a:visited{
+            color: darkcyan;
+        }
+
+        a:hover{
+            color: darkgoldenrod;
+        }
+
+        a:active{
+            color: darkorchid;
+        }
+    </style>
+</head>
+<body>
+    <div class="hover">
+        <p>Arde en tus ojos un misterio, virgen
+            esquiva y compañera.
+            No sé si es odio o es amor la lumbre
+            inagotable de tu aliaba negra.
+        </p>
+    </div>
+
+    <div class="listado">
+        <p>Parrafo 1</p>
+        <p>Parrafo 2</p>
+        <p>Parrafo 3</p>
+        <p>Parrafo 4</p>
+    </div>
+
+    <div class="enlaces">
+        <a href="https://www.google.com/" target="_blank">Google</a>
+        <a href="https://www.marca.com/" target="_blank">Marca</a>
+    </div>
+</body>
+</html>
