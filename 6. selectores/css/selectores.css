@@ -1,0 +1,11 @@
+.contenedor{
+    color: blue;
+}
+
+section.main .contenedor p, #botonC{
+    color: blue;
+}
+
+.contenedor #botonC{
+    background-color: chartreuse;
+}
