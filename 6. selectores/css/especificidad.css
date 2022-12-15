@@ -1,0 +1,26 @@
+
+/*El id, tiene mas prioridad por lo cual los cambios que 
+que se reflejan por encima de otros, es el de id, esto se 
+le conoce como especificidad (1, 0, 0)
+*/
+#h1-id{
+    color: cornflowerblue;
+}
+
+/*especificidad clase (0, 1, 0)*/
+.h1-class{
+    color: blueviolet;
+}
+
+/*especificidad clase (0, 0, 1)
+Si se quisiera tener relevancia en lo que se ha hecho de la
+etiqueta con menor relevancia, se coloca !important, con eso 
+sin importar que sea de mayor especificidad se dara visibilidad
+*/
+h1{
+    color: blue !important; /*Evitar el !important, para mejores practicas*/
+}
+
+p{
+    color: brown;
+}
