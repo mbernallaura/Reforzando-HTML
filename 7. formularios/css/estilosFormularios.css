@@ -1,0 +1,62 @@
+.input{
+    width: 100%;
+    padding: 5px 10px;
+    border: 2px solid green;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+.input[type="password"]{
+    color: crimson;
+}
+
+.input-moderno{
+    border: none;
+    border-bottom:1px solid rgb(163, 150, 150) ;
+    outline: none;
+    padding: 5px;
+    color: rgb(49, 45, 45);
+}
+
+.input-moderno::placeholder{
+    color: #c2c2c2;
+}
+
+.input-moderno:focus{
+    border-bottom:1px solid rgb(49, 45, 45);
+}
+
+.input-background{
+    background-color: aquamarine;
+    border: none;
+    border-radius: 5px;
+    padding: 5px 10px;
+    box-shadow: 0 0 10px #ccc;
+}
+.input-background::placeholder{
+    color:cadetblue;
+}
+
+.input-search{
+    padding: 10px;
+    padding-left: 35px;
+    border: none;
+    background-color: #ccc;
+    border-radius: 8px;
+    margin: 5px;
+    background-image: url(http://voluntariado.diputacionalicante.es/wp-content/uploads/2017/03/lupa.png);
+    background-size: 18px;
+    background-repeat: no-repeat;
+    background-position: 10px;
+}
+
+textarea{
+    /*resize: Redimencionar el texarea, en la pagina*/
+    resize: none;
+}
+
+select{
+    width: 100%;
+    padding: 8px;
+    background-color: #ccc;
+}
