@@ -1,0 +1,25 @@
+#porEncima{
+    background-color: cadetblue;
+    color: darkblue;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+#porEncima:hover{
+    background-color: green;
+    color: aliceblue;
+}
+
+#porEncima::after{
+    content: 'Pasa por encima';
+}
+
+#porEncima:hover::after{
+    content: '';
+}
+
+#porEncima:hover::before{
+    content: '¡Hecho!';
+}
+
+
