@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;500;700&family=Zen+Dots&display=swap'); 
+
+*{
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+.botones{
+    align-self: flex-start;
+    display: flex;
+    gap: 20px;
+}
+
+.googleBtn{
+    background-color: #1a73e8;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    height: 40px;
+    width: 226px;
+    display: flex;
+    align-items: center;
+    padding: 2px;
+    cursor: pointer;
+}
+
+.googleBtn:hover{
+    opacity: 0.8;
+}
+
+.googleBtn picture{
+    width: 35px;
+    height: 35px;
+    background-color: white;
+    border-radius: 2px 0px 0px 2px ;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.googleBtn picture img{
+    width: 75%;
+}
+
+.googleBtn span{
+    color: white;
+    font-weight: 500;
+    padding: 15px;
+}
+
+.twitterBtn{
+    height: 40px;
+    width: 40px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.twitterBtn:hover{
+    background-color: #ddd;
+}
+
+.twitterBtn picture img{
+    width: 60%;
+}
