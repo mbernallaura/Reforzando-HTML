@@ -9,7 +9,7 @@
 </head>
 <body>
     <div class="container">
-        <h3>Registrate</h3>
+        <h3 class="titulo">Registrate</h3>
 
         <div class="botones">
             <button class="googleBtn">
@@ -27,12 +27,12 @@
 
         <div class="separator">
             <hr>
-            <span>Or...</span>
+            <span>Or</span>
             <hr>
         </div>
 
         <form action="" method="">
-            <div>
+            <div class="sectionInputs">
                 <!--For hace referencia al Id del input-->
                 <label for="name">
                     <span>Name</span>
@@ -43,7 +43,7 @@
                     <span>Username</span>
                     <input id="username" name="username" type="text">
                 </label>
-
+            </div>
                 <label for="email">
                     <span>Email</span>
                     <input id="email" name="email" type="text">
@@ -54,13 +54,12 @@
                     <input id="password" name="password" type="password" placeholder="6+ characters">
                 </label>
 
-                <label for="checkbox">
+                <label for="checkbox" class="checkboxLabel">
                     <input type="checkbox" id="checkbox">
                     <span>Acepto las condiciones y el aviso legal</span>
                 </label>
 
-                <button type="submit">Crear Cuenta</button>
-            </div>
+                <button type="submit" class="submitBtn">Crear Cuenta</button>
         </form>
     </div>
 </body>

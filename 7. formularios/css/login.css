@@ -5,11 +5,19 @@
 }
 
 .container{
+    margin: auto;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     gap: 20px;
+    width: 450px
+}
+
+.titulo{
+    display: flex;
+    text-align: start;
+    justify-content: start;
 }
 
 .botones{
@@ -69,4 +77,105 @@
 
 .twitterBtn picture img{
     width: 60%;
+}
+
+.separator{
+    display: flex;
+    width: 100%;
+    gap: 15px;
+}
+
+.separator hr{
+    flex-grow: 1;
+    border: none;
+    border-top: 1px solid #ccc;
+}
+
+.separator span{
+    color: #8b8b8b;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    gap: 30px;
+}
+
+.sectionInputs{
+    display: flex;
+    gap: 10px;
+    width: 100%;
+}
+
+label{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+label span{
+    font-weight: 700;
+}
+
+label input{
+    width: 90%;
+    background-color: #f3f3f4;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 10px;
+    outline: none;
+    font-size: 14pt;
+    transition: background-color 0.3s, box-shadow 0.3s;
+}
+
+.sectionInputs label input{
+    width: 80%;
+    background-color: #f3f3f4;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 10px;
+    outline: none;
+    font-size: 14pt;
+}
+
+label input:hover{
+    background-color: white;
+    border: solid 1px #f3f3f4;
+    box-shadow: 0 0 10px #f1aac6;
+}
+
+label input:focus{
+    background-color: white;
+    border: solid 1px #f3f3f4;
+    box-shadow: 0 0 10px #f1aac6;
+}
+
+.checkboxLabel{
+    display: flex;
+    flex-direction: row;
+}
+
+.checkboxLabel input[type='checkbox']{
+    width: 20px;
+}
+
+.checkboxLabel span{
+    font-weight: 400;
+}
+
+.submitBtn{
+    background-color: #ea4c89 ;
+    color: white;
+    font-weight: 600;
+    font-size: 13pt;
+    text-align: center;
+    padding: 15px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.submitBtn:hover{
+    opacity: 0.7;
 }
