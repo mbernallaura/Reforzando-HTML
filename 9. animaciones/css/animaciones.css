@@ -1,0 +1,62 @@
+.padre{
+    width: 400px;
+    height: 400px;
+    background-color: blue;
+}
+
+.hijo{
+    width: 50%;
+    height: 50%;
+    background-color: beige;
+    /*transition: Primer valor puesto es a que se le quiere hacer la transicion
+    En este caso es a tansform,
+    2 valor (1s) es cuanto se demora en hacer la transicion
+    3 valor (ease-in) es el tipo de transicion a aplicar y se puede
+    modificar en el inspector para hacer nuevos aca
+    4 valor (2s) La animacion despues del tiempo que se coloque,
+    va a empesar la transicion, en este caso despues de 2 segundos
+    empiza la transicion
+    */
+    /* transition: transform 1s ease-in 2s; */
+
+    /*forwards: si se mantiene el cursor encima de lo que se esta
+    animando, lo mantiene en ese estado hasta el final.
+    El numero 2 representa el numero de veces que quiero que se
+    haga la animacion, tambien s le puede decir que se haga infinito
+    con la palabra (infinite) 
+    alternate: es una opcion que se puede clocar si se quiere
+    que la animacion cuando termine su iteracion, a la siguiente
+    vaya al reves
+    */
+    animation: translacion 3s ease-in-out infinite forwards alternate;
+}
+
+.padre:hover .hijo{
+    /* transform: translate(100%);
+    background-color: blueviolet; */
+    animation-play-state: paused;
+}
+
+@keyframes translacion{
+    0%{
+        background-color: beige;
+        transform: translateX(0%);
+    }
+
+    25%{
+        transform: translateX(100%) translateY(0%);
+    }
+
+    50%{
+        transform: translateX(100%) translateY(100%);
+    }
+
+    75%{
+        transform: translateX(0%) translateY(100%);
+    }
+
+    100%{
+        background-color: chocolate;
+        transform: translate(0%);
+    }
+}
