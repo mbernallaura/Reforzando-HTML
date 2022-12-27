@@ -1,0 +1,23 @@
+.escenario{
+    border: 1px solid #333;
+    padding: 10px;
+}
+
+.escenario1{
+    font-size: 32px;
+}
+
+.escenario2{
+    font-size: 16px;
+}
+
+/*! em: hace referencia al tamaño de fuente de su contenedor*/
+.em{
+    font-size: 2em;
+}
+
+/*! rem: hace referencia al tamaño de fuente de su RAIZ,*/
+/*! es decir, esto va escalando con respecto al tamaño que se tenga predefinido al inicio*/
+.rem{
+    font-size: 2rem;
+}
