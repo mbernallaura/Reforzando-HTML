@@ -1,0 +1,20 @@
+/*! Para realizar varibles, siempre hay que utilizar dos --nombreVariable*/
+
+:root{
+    --color-principal: rgb(146, 54, 54);
+    --ancho-principal: 350px
+}
+
+.titulo{
+    color: var(--color-principal);
+}
+
+.footer{
+    color: var(--color-principal);
+}
+
+.contenedor{
+    background-color: aquamarine;
+    padding: 1rem;
+    max-width: var(--ancho-principal);
+}
