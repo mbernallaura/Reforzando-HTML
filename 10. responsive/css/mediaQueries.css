@@ -1,0 +1,45 @@
+h1{
+    color: red;
+    font-size: 4rem;
+}
+
+p{
+    font-size: 2rem;
+}
+
+/*! media: es a que dispositivos se quiere afectar los cambios*/
+/** @media: esto solo, sin especificar a que dispositivo se quiere
+/**hacer el cambio, significa que se aplica para todos los dispositivos*/
+/*! screen: significa que solo afectara a la pantalla */
+/*! print: afecta solo cuando se va a imprimir*/
+/*! (max-width: 576px), esto se utiliza para decir que si la pantalla
+/*! tiene una anchura menor al valor colocado, se realizan los cambios*/
+@media (max-width: 576px){
+    h1{
+        color: blue;
+    }
+}
+
+@media (min-width: 600px){
+    h1{
+        color: green;
+    }
+}
+
+/*! landcape: Cuando la altura es menor que la anchura, se hacen los cambios*/
+/*? En este caso, deben cumplir las dos condiciones, para que se hagan los cambios (and)*/
+@media (orientation: landscape) and (min-height: 400px){
+    p{
+        color: brown;
+    }
+}
+
+/*? Si se cumple cualquiera de las dos condiciones, se aplican los cambios*/
+@media (min-height: 300px),(min-width: 1100px){
+    h1{
+        color: blueviolet;
+    }
+}
+
+
+
