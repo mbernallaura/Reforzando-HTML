@@ -1,0 +1,29 @@
+.contenedor{
+    background-color: yellow;
+    padding: 0.5rem;
+    display: flex;
+    gap: 0.5rem;
+    min-height: 5rem;
+    /*!Eje X*/
+    justify-content: space-around;
+
+    /*! Eje Y*/
+    align-items: center;
+
+    /* flex-direction: column; */
+
+    /*!flex-wrap:wrap => preserva el ancho de los elementos y a medida
+    /*! que la pantalla se encoje, se reacomodan los elementos de tal
+    /*! manera que conserve su tamaño*/
+    flex-wrap: wrap;
+}
+
+.item{
+    background-color: salmon;
+    padding: 0.25rem;
+    width: 10rem;
+}
+
+.item2{
+    align-self: stretch;
+}
