@@ -1,3 +1,5 @@
+@use 'mixies';
+
 body{
     padding: 0;
     margin: 0;
@@ -5,18 +7,18 @@ body{
 
 .container{
     width: 100%;
-    background-color: azure;
+    background-color: burlywood;
     min-height: 100vh;
     padding: 0.5rem;
 }
 
 h1{
     margin: 0;
-    @include formato-texto();
+    @include mixies.formato-texto();
 }
 
 p{
-    @include formato-texto(#6666);
+    @include mixies.formato-texto(#6666);
 }
 
 .listado{

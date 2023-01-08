@@ -1,11 +1,15 @@
 //componentes
-@import "sass/componentes";
+//!Se hace el import cuando no se utiliza el use
+//@import "sass/componentes";
+@use "sass/componentes" as comp;
+//$color -> comp.$color
 
 //mixies
-@import 'sass/mixies';
+@use 'sass/mixies';
+//$color -> mixies.$color
 
 //estilos
-@import 'sass/estilos';
+@use 'sass/estilos';
 
 //paginas
 //pagina principal
