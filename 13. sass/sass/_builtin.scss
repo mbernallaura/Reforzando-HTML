@@ -1,0 +1,85 @@
+///Funiones Cadena de texto
+@use 'sass:string';
+@use 'sass:math';
+@use 'sass:list';
+@use 'sass:selector';
+@use 'sass:color';
+
+@debug 'hola';
+@debug string.index("Helvetica Neue", "Neue"); 
+
+$string: 'Helvetica';
+$newString: string.insert($string, 'bold', 10);
+
+@debug $newString;
+@debug string.length($newString);
+
+//Recortar strings (nombreVariable, inicioCorte, finalCorte)
+@debug string.slice($newString, 5, 9);
+
+@debug string.to-upper-case('Roboto Mono');
+@debug string.to-lower-case('Roboto Mono');
+
+@debug string.unique-id();
+
+/// Funciones con numeros
+@debug math.$e;
+@debug math.$pi;
+
+//Acercarce al numero entero mas cercano, al numero que se coloco
+@debug math.ceil(4.6);
+
+//.clamp(rangoInicial, numeroEvaludo,rangoFinal)
+//Dependiendo del numero evaluado se aproxima al rango en este caso es -6,36
+//esta por fuera de 0 hasta 10, asi que en este caso marcara 0
+//si se coloca un numero dentro del rango, nos mantendra ese valor
+@debug math.clamp(0, 6,10);
+
+//.max(): devuelve el valor maximo de una lista de numeros
+@debug math.max(3,4,6,10,2,399);
+
+@debug math.min(3,4,6,10,2,399);
+
+///Funciones con listas
+$lista1: 10px 10px 0px 15px;
+
+@debug $lista1;
+
+//.append(nombreLista, elementoAñadir): añadir al final de la lista un elemento 
+@debug list.append($lista1, 25px, space);
+
+$border-custom: solid 1px #ccc;
+
+//index(nombreLista, elementoAencontrar): en que posicion esta el elemento 
+@debug list.index($border-custom, 1px); // 2 
+
+//separator(nomreLista): como esta separada la lista
+@debug list.separator($border-custom);// space
+
+///Funciones de selector
+$select1: 'a';
+$select2: '.disabled';
+
+@debug selector.append($select1, $select2);
+
+///Funciones de color
+$color: #fdaa2d;
+@debug color.adjust($color, $red:-50, $alpha: -0.5);
+$color2: rgb(203, 170, 45, 0.5);
+
+@debug color.complement($color);
+$colorComplement: #2d80fd;
+
+@debug darken($color, 20%);
+$colorDark: #c27502;
+
+@debug lighten($color, 20%);
+$colorLight: #fed392;
+
+//Obtener el numero de algun nombre de color
+@debug color.green($color);
+
+@debug color.hue($color);
+
+@debug color.invert($color);
+$colorInvertido: #0255d2;
