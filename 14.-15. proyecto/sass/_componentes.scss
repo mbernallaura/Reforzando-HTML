@@ -61,3 +61,52 @@ $colorMain: #0075ff;
         box-shadow: 0 0 10px #00000055;
     }
 }
+
+.feature{
+    display: flex;
+    flex-direction: column;
+
+    .icon{
+        color: $colorMain;
+        font-size: 10rem;
+        text-align: center;
+    }
+
+    .description{
+        .title{
+            font-size: 2rem;
+            text-align: center;
+        }
+
+        .text{
+            color: #888;
+            font-weight: 600;
+            text-align: center;
+        }
+    }
+
+    .cta{
+        margin-top: 3rem;
+        color: $colorMain;
+        font-weight: 600;
+        text-align: center;
+    }
+}
+
+.iconDesk{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    .icon{
+        padding: 0;
+        color: $colorMain;
+        font-size: 10rem;
+    }
+
+    .title{
+        margin-top: -2rem;
+        font-size: 1.5rem;
+        font-weight: 600;
+    }
+}

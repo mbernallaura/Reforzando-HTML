@@ -44,4 +44,46 @@
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.3333333333);
 }
 
+.feature {
+  display: flex;
+  flex-direction: column;
+}
+.feature .icon {
+  color: #0075ff;
+  font-size: 10rem;
+  text-align: center;
+}
+.feature .description .title {
+  font-size: 2rem;
+  text-align: center;
+}
+.feature .description .text {
+  color: #888;
+  font-weight: 600;
+  text-align: center;
+}
+.feature .cta {
+  margin-top: 3rem;
+  color: #0075ff;
+  font-weight: 600;
+  text-align: center;
+}
+
+.iconDesk {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.iconDesk .icon {
+  padding: 0;
+  color: #0075ff;
+  font-size: 10rem;
+}
+.iconDesk .title {
+  margin-top: -2rem;
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+
 /*# sourceMappingURL=style.css.map */
