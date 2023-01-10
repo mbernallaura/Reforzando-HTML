@@ -50,6 +50,7 @@ $colorMain: #0075ff;
         font-size: 1rem;
         list-style: none;
         display: inline;
+        margin-right: 2rem;
 
         a{
             color: black;
@@ -63,8 +64,8 @@ $colorMain: #0075ff;
 
 .iconSm{
     i{
-        font-size: 0.75rem;
-        padding: 0.1rem 0.25rem;
+        font-size: 1.25rem;
+        padding: 0.4rem 0.65rem;
         color: $colorMain;
         border-radius: 58%;
         box-shadow: 0 0 10px #00000055;
