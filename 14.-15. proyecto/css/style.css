@@ -222,4 +222,21 @@ body {
   margin: 0 1rem;
 }
 
+.secFooterCta {
+  background-color: #f4f8fe;
+  padding: 5rem;
+  background-image: url(../img/bg.png);
+  background-repeat: no-repeat;
+  background-position: 100%;
+}
+.secFooterCta .footerCta {
+  max-width: 50%;
+}
+.secFooterCta .footerCta .ctaTitle {
+  font-size: 2rem;
+}
+.secFooterCta .footerCta .ctaDescription {
+  font-size: 1.1rem;
+}
+
 /*# sourceMappingURL=style.css.map */
