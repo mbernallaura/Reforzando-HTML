@@ -7,6 +7,10 @@
     padding: 3rem;
 }
 
+html{
+    min-width: 100vw;
+}
+
 body{
     padding: 0;
     margin: 0;
@@ -40,6 +44,17 @@ body{
         .homeTitle{
             width: 20rem;
             font-size: 3rem;
+        }
+
+        .homeDescription{
+            width: 300px;
+        }
+
+        .leadMagnet{
+            
+            .inputCol{
+                max-width: 200px;
+            }
         }
     }
 }
@@ -172,5 +187,48 @@ body{
     .ctaDescription{
         font-size: 1.1rem;
     }
+    }
+}
+
+@media (max-width: 768px){
+    .secOnboarding{
+        .steps{
+            flex-direction: column;
+            .iconDesc{
+                .title{
+                    text-align: center;
+                }
+            }
+        }
+    }
+
+    .secFooterCta{
+        background-image: none;
+
+        .footerCta{
+            max-width: 100%;
+            text-align: center;
+        }
+    }
+
+    .secBenefits{
+        .intro{
+            text-align: center; 
+        }
+
+        .intro h3{
+            font-size: 2rem;
+        }
+    }
+
+    .secFeatures{
+        h3{
+            font-size: 2rem;
+        }
+        .intro p{
+            font-size: 1rem;
+        } 
+
+
     }
 }
