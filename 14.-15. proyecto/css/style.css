@@ -80,19 +80,19 @@
   text-align: center;
 }
 
-.iconDesk {
+.iconDesc {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
 }
-.iconDesk .icon {
+.iconDesc i {
   padding: 0;
   color: #0075ff;
   font-size: 10rem;
 }
-.iconDesk .title {
-  margin-top: -2rem;
+.iconDesc .title {
+  margin-top: -1rem;
   font-size: 1.5rem;
   font-weight: 600;
 }
@@ -134,7 +134,7 @@ body {
   font-size: 3rem;
 }
 
-.secFeatures, .secBenefits .intro {
+.secFeatures, .secOnboarding .intro, .secBenefits .intro {
   width: 100%;
   max-width: 992px;
   margin: auto;
@@ -143,42 +143,42 @@ body {
   flex-direction: column;
   align-items: center;
 }
-.secFeatures .intro, .secBenefits .intro .intro {
+.secFeatures .intro, .secOnboarding .intro .intro, .secBenefits .intro .intro {
   text-align: center;
 }
-.secFeatures .intro h3, .secBenefits .intro .intro h3 {
+.secFeatures .intro h3, .secOnboarding .intro .intro h3, .secBenefits .intro .intro h3 {
   font-size: 1.8rem;
 }
-.secFeatures .intro p, .secBenefits .intro .intro p {
+.secFeatures .intro p, .secOnboarding .intro .intro p, .secBenefits .intro .intro p {
   font-size: 0.8rem;
   color: #888;
 }
-.secFeatures .features, .secBenefits .intro .features {
+.secFeatures .features, .secOnboarding .intro .features, .secBenefits .intro .features {
   display: flex;
   gap: 1rem;
   align-items: center;
   margin: auto;
 }
-.secFeatures .features .text, .secBenefits .intro .features .text {
+.secFeatures .features .text, .secOnboarding .intro .features .text, .secBenefits .intro .features .text {
   padding: 2rem 0;
   flex: 1;
 }
-.secFeatures .features .text .feature, .secBenefits .intro .features .text .feature {
+.secFeatures .features .text .feature, .secOnboarding .intro .features .text .feature, .secBenefits .intro .features .text .feature {
   display: flex;
   flex-direction: row;
   align-items: center;
 }
-.secFeatures .features .text .feature .description, .secBenefits .intro .features .text .feature .description {
+.secFeatures .features .text .feature .description, .secOnboarding .intro .features .text .feature .description, .secBenefits .intro .features .text .feature .description {
   margin-left: 1rem;
   max-width: 20rem;
 }
-.secFeatures .features .text .feature .description .titleFeature, .secBenefits .intro .features .text .feature .description .titleFeature {
+.secFeatures .features .text .feature .description .titleFeature, .secOnboarding .intro .features .text .feature .description .titleFeature, .secBenefits .intro .features .text .feature .description .titleFeature {
   font-size: 1.15rem;
 }
-.secFeatures .features .text .feature .description .textFeature, .secBenefits .intro .features .text .feature .description .textFeature {
+.secFeatures .features .text .feature .description .textFeature, .secOnboarding .intro .features .text .feature .description .textFeature, .secBenefits .intro .features .text .feature .description .textFeature {
   font-size: 1rem;
 }
-.secFeatures .features .imagen img, .secBenefits .intro .features .imagen img {
+.secFeatures .features .imagen img, .secOnboarding .intro .features .imagen img, .secBenefits .intro .features .imagen img {
   max-width: 20rem;
 }
 
@@ -208,6 +208,18 @@ body {
 .secKpis .kpi .desc {
   font-size: 0.9rem;
   color: rgba(255, 255, 255, 0.6666666667);
+}
+
+.secOnboarding .steps {
+  padding: 0 7rem 5rem 7rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.secOnboarding .steps .stepSeparator {
+  flex: 1;
+  border-top: 2px solid #ddd;
+  margin: 0 1rem;
 }
 
 /*# sourceMappingURL=style.css.map */

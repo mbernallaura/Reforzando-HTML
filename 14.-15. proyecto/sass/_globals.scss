@@ -135,3 +135,23 @@ body{
         }
     }
 }
+
+.secOnboarding{
+    .intro{
+        @extend .secFeatures, .intro;
+    }
+
+    .steps{
+        padding: 0 7rem 5rem 7rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        .stepSeparator{
+            flex: 1;
+            border-top: 2px solid #ddd;
+            margin: 0 1rem;
+        }
+    }
+
+}

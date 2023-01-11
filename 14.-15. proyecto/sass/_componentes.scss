@@ -103,19 +103,19 @@ $colorMain: #0075ff;
     }
 }
 
-.iconDesk{
+.iconDesc{
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    .icon{
+    i{
         padding: 0;
         color: $colorMain;
         font-size: 10rem;
     }
 
     .title{
-        margin-top: -2rem;
+        margin-top: -1rem;
         font-size: 1.5rem;
         font-weight: 600;
     }
