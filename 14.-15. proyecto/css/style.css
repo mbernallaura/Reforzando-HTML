@@ -55,25 +55,25 @@
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.3333333333);
 }
 
-.feature {
+.benefit {
   display: flex;
   flex-direction: column;
 }
-.feature .icon {
+.benefit i {
   color: #0075ff;
-  font-size: 10rem;
+  font-size: 7.5rem;
   text-align: center;
 }
-.feature .description .title {
+.benefit .description .title {
   font-size: 2rem;
   text-align: center;
 }
-.feature .description .text {
+.benefit .description .text {
   color: #888;
   font-weight: 600;
   text-align: center;
 }
-.feature .cta {
+.benefit .cta {
   margin-top: 3rem;
   color: #0075ff;
   font-weight: 600;
@@ -134,7 +134,7 @@ body {
   font-size: 3rem;
 }
 
-.secFeatures {
+.secFeatures, .secBenefits .intro {
   width: 100%;
   max-width: 992px;
   margin: auto;
@@ -143,43 +143,51 @@ body {
   flex-direction: column;
   align-items: center;
 }
-.secFeatures .intro {
+.secFeatures .intro, .secBenefits .intro .intro {
   text-align: center;
 }
-.secFeatures .intro h3 {
+.secFeatures .intro h3, .secBenefits .intro .intro h3 {
   font-size: 1.8rem;
 }
-.secFeatures .intro p {
+.secFeatures .intro p, .secBenefits .intro .intro p {
   font-size: 0.8rem;
   color: #888;
 }
-.secFeatures .features {
+.secFeatures .features, .secBenefits .intro .features {
   display: flex;
   gap: 1rem;
   align-items: center;
   margin: auto;
 }
-.secFeatures .features .text {
+.secFeatures .features .text, .secBenefits .intro .features .text {
   padding: 2rem 0;
   flex: 1;
 }
-.secFeatures .features .text .feature {
+.secFeatures .features .text .feature, .secBenefits .intro .features .text .feature {
   display: flex;
   flex-direction: row;
   align-items: center;
 }
-.secFeatures .features .text .feature .description {
+.secFeatures .features .text .feature .description, .secBenefits .intro .features .text .feature .description {
   margin-left: 1rem;
   max-width: 20rem;
 }
-.secFeatures .features .text .feature .description .titleFeature {
+.secFeatures .features .text .feature .description .titleFeature, .secBenefits .intro .features .text .feature .description .titleFeature {
   font-size: 1.15rem;
 }
-.secFeatures .features .text .feature .description .textFeature {
+.secFeatures .features .text .feature .description .textFeature, .secBenefits .intro .features .text .feature .description .textFeature {
   font-size: 1rem;
 }
-.secFeatures .features .imagen img {
+.secFeatures .features .imagen img, .secBenefits .intro .features .imagen img {
   max-width: 20rem;
+}
+
+.secBenefits {
+  border-top: 1px solid #ddd;
+}
+.secBenefits .benefitCards {
+  width: 100%;
+  padding: 0 2rem 2rem 2rem;
 }
 
 /*# sourceMappingURL=style.css.map */

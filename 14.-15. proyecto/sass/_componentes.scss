@@ -72,13 +72,13 @@ $colorMain: #0075ff;
     }
 }
 
-.feature{
+.benefit{
     display: flex;
     flex-direction: column;
 
-    .icon{
+    i{
         color: $colorMain;
-        font-size: 10rem;
+        font-size: 7.5rem;
         text-align: center;
     }
 
